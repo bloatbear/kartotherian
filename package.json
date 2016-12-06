@@ -34,6 +34,7 @@
     "registerSourceLibs": [
       "tilelive-bridge",
       "tilelive-vector",
+      "tilelive-http",
       "kartotherian-autogen",
       "kartotherian-cassandra",
       "kartotherian-postgres",
@@ -43,7 +44,6 @@
       "kartotherian-substantial"
     ],
     "requestHandlers": [
-      "kartotherian-geoshapes",
       "kartotherian-maki",
       "kartotherian-snapshot"
     ]
@@ -68,6 +68,9 @@
     "tilelive": "~5.12.2",
     "tilelive-bridge": "~2.3.1",
     "tilelive-vector": "~3.9.3",
+
+    "tilejson": "*",
+    "tilelive-http": "git+https://github.com/kartotherian/tilelive-http.git",
 
     "kartotherian-core": "git+https://github.com/kartotherian/kartotherian-core.git",
     "kartotherian-server": "git+https://github.com/kartotherian/kartotherian-server.git",
